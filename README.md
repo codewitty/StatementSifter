@@ -33,7 +33,7 @@
 - Writes data to separate sheets in a Google Sheets document for each statement.
 
 ## 💡 Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+Want to contribute? 🌟 Fork the repository, make your changes, and send in a pull request. All contributions are heartily welcome!
 
 ## 📜 License
 [MIT](https://choosealicense.com/licenses/mit/)
