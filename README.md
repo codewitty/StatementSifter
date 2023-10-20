@@ -1,5 +1,5 @@
 # 📊 Statement Sifter
-> Extract expenses from PDF statements for a specific vendor and write them to Google Sheets.
+> Extract expenses from PDF statements for a specific vendor and write them to Google Sheets using GCP and Python.
 
 ## 🚀 Getting Started
 
