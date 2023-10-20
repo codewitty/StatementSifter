@@ -7,15 +7,14 @@
 1. **Python**: Ensure you have Python installed (version 3.x recommended).
 2. **Python Libraries**: You'll need to install certain libraries. You can do this using pip:
     ```bash
-    pip install pdfplumber gspread oauth2client
+    pip3 install -r requirements.txt
     ```
 
 ### 📝 Setting up Google Sheets API
 1. Go to the [Google Developers Console](https://console.developers.google.com/).
 2. Create a new project.
 3. Search for the Google Sheets API and enable it.
-4. Create credentials for a Web server to access Application Data.
-5. Choose Web server and Application data.
+4. Create credentials for a Service Account.
 6. Download the JSON file.
 7. Move the downloaded JSON file to your project directory and rename it to `your_credentials.json`.
 
@@ -29,8 +28,9 @@
 3. Check your Google Sheets for the extracted expenses.
 
 ## 📈 Features
-- Extracts expense date and amount from PDF statements.
-- Writes data to separate sheets in a Google Sheets document for each statement.
+- 🧾 Efficient extraction of transactional data from PDF statements.
+- 📊 Data neatly written to individual Google Sheets per statement.
+- 💰 Provides a total sum of all your transactions.
 
 ## 💡 Contributing
 Want to contribute? 🌟 Fork the repository, make your changes, and send in a pull request. All contributions are heartily welcome!
