@@ -1,37 +1,39 @@
+# 📊 Statement Sifter
+> Extract expenses from PDF statements for a specific vendor and write them to Google Sheets.
 
-📈 Statement Sifter
-Extract expenses from PDF statements for a particular vendor and write them to Google Sheets.
+## 🚀 Getting Started
 
-🚀 Getting Started
-🛠 Prerequisites
-🐍 Python installed (version 3.x recommended).
-📦 Required Python libraries. Run the following to get them:
-Copy code
-pip install -r requirements.txt
-📑 Google Sheets API activated and service account credentials in place. (Don't worry, we guide you below!)
-📝 Setting Up Google Sheets API
-🌐 Go to Google Cloud Console.
-🆕 Click on the project drop-down and select New Project. Give it a name.
-🎛 Once the project is created, navigate to Enable APIs and Services.
-🔍 Search for "Google Sheets API" and enable it.
-🔐 After enabling, head over to the Credentials tab.
-➕ Click on Create Credentials and choose Service account.
-🖋 Fill out the fields to create the service account.
-🗝 Post-creation, click on Edit for that account. Go to the Keys tab and click on Add Key. Choose JSON as the type. This downloads your credentials!
-💌 Last but essential, share your Google Sheet with the email of the Service Account. You'll find this in your .json under client_email.
-🏃‍♂️ Usage
-📁 Rename the credentials to your_credentials.json and place them in the project directory.
-🔗 Adjust source_folder in the script to point to your PDF statements' directory.
-🖥 Run:
-css
-Copy code
-python main.py
-✨ Features
-🧾 Efficient extraction of transactional data from PDF statements.
-📊 Data neatly written to individual Google Sheets per statement.
-💰 Provides a total sum of all your transactions.
-🤝 Contributing
-Wish to contribute? 🌟 Fork the repository, make your changes, and send in a pull request. All contributions are heartily welcome!
+### 🛠 Prerequisites
+1. **Python**: Ensure you have Python installed (version 3.x recommended).
+2. **Python Libraries**: You'll need to install certain libraries. You can do this using pip:
+    ```bash
+    pip install pdfplumber gspread oauth2client
+    ```
 
-📜 License
-MIT
+### 📝 Setting up Google Sheets API
+1. Go to the [Google Developers Console](https://console.developers.google.com/).
+2. Create a new project.
+3. Search for the Google Sheets API and enable it.
+4. Create credentials for a Web server to access Application Data.
+5. Choose Web server and Application data.
+6. Download the JSON file.
+7. Move the downloaded JSON file to your project directory and rename it to `your_credentials.json`.
+
+## 🏃 Running the Script
+1. Place your PDF statements in the project directory.
+2. Run the script:
+    ```bash
+    python main.py
+    ```
+
+3. Check your Google Sheets for the extracted expenses.
+
+## 📈 Features
+- Extracts expense date and amount from PDF statements.
+- Writes data to separate sheets in a Google Sheets document for each statement.
+
+## 💡 Contributing
+Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
+
+## 📜 License
+[MIT](https://choosealicense.com/licenses/mit/)
