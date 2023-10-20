@@ -19,6 +19,10 @@ CLIENT = gspread.authorize(CREDS)
 
 def process_pdf(file_path):
     """Extract transaction data from a given PDF.
+
+    NOTE: This regex matches the vendor in my specific statements.
+            You'll need to update the regex and the page indexes to your specific
+            statement as needed.
     
     Args:
         file_path (str): The path to the PDF file.
