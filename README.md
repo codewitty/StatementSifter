@@ -22,7 +22,7 @@
 1. Place your PDF statements in the project directory.
 2. Run the script:
     ```bash
-    python main.py
+    python3 main.py
     ```
 
 3. Check your Google Sheets for the extracted expenses.
