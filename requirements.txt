@@ -1,0 +1,4 @@
+pdfplumber==0.5.28
+gspread==3.7.0
+oauth2client==4.1.3
+
