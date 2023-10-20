@@ -5,7 +5,7 @@
 
 ### 🛠 Prerequisites
 1. **Python**: Ensure you have Python installed (version 3.x recommended).
-2. **Python Libraries**: You'll need to install certain libraries. You can do this using pip:
+2. **Python Libraries**: Install necessary libraries. You can do this using pip:
     ```bash
     pip3 install -r requirements.txt
     ```
