@@ -1,3 +1,7 @@
+
+![DALL·E 2023-12-07 21 57 35 - Thumbnail design for the 'StatementSifter' app  Background_ Gradient in shades of blue and purple, symbolizing financial stability and trust  Center I](https://github.com/codewitty/StatementSifter/assets/35624908/6bf6c088-fd4c-4be8-8f63-7c555bb9d79f)
+
+
 # 📊 Statement Sifter
 > Extract expenses from PDF statements for a specific vendor and write them to Google Sheets using GCP and Python.
 
