@@ -1,5 +1,6 @@
 
-![Uploading DALL·E 2023-12-07 21.56.38 - A thumbnail for an app called 'StatementSifter'. The app aggregates all charges from a particular vendor based on the statements provided. The design .png…]()
+![DALL·E 2023-12-07 21 56 38 - A thumbnail for an app called 'StatementSifter'  The app aggregates all charges from a particular vendor based on the statements provided  The design ](https://github.com/codewitty/StatementSifter/assets/35624908/6b446f38-87d0-451f-81c4-c6c085a0ecee)
+
 
 
 # 📊 Statement Sifter
