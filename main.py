@@ -92,7 +92,7 @@ def get_or_create_worksheet(spreadsheet, title):
         return spreadsheet.add_worksheet(title=title, rows="100", cols="5")
 
 def write_to_google_sheet(data, total, statement_name):
-    spreadsheet = client.open("Test")
+    spreadsheet = client.open(google_sheet_name)
     sheet_name = format_statement_name(statement_name)
     sheet = get_or_create_worksheet(spreadsheet, sheet_name)
 
@@ -112,6 +112,7 @@ def write_to_google_sheet(data, total, statement_name):
 if __name__ == "__main__":
     source_folder = './'
     monthly_totals = {}
+    google_sheet_name = "Facebook_2023"
 
     for file_name in os.listdir(source_folder):
         if file_name.endswith('.pdf'):
@@ -120,5 +121,5 @@ if __name__ == "__main__":
             sheet_name = format_statement_name(file_name)
             monthly_totals[sheet_name] = total
 
-    update_summary_sheet(client.open("Test"), monthly_totals)
+    update_summary_sheet(client.open(google_sheet_name), monthly_totals)
 
